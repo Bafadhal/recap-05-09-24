@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Test</title>
+        <link rel="stylesheet" href="basic.css">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            body {
+                background-color: black;
+            }
+            .container {
+                display: flex;
+                height: 300px;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .container div {
+                width: 100px;
+                padding: 10px;
+                text-align: center;
+                font-size: 14sp;
+                color: #ffeead;
+                border: 2px solid black;
+                background-color: green;
+                margin: 5px;
+                border-radius: 6px;
+            }
+        </style>
     </head>
     <body>
-        <h1>Hello World</h1>
+        <nav class="container">
+            <div class="home">Home</div>
+            <div class="search">Search</div>
+            <div class="logout">Logout</div>
+        </nav>
     </body>
-</html>
+</html
